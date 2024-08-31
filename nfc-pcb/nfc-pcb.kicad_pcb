@@ -1053,6 +1053,7 @@
 		(property "Reference" "L1"
 			(at 25 18.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e4640315-e1b5-4790-827c-dc3c05f5cb19")
 			(effects
 				(font
@@ -1064,6 +1065,7 @@
 		(property "Value" "L"
 			(at 25 20.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a4a06b23-ce1e-42a8-8073-0db26443326c")
 			(effects
 				(font
@@ -1113,137 +1115,6 @@
 		(sheetname "Root")
 		(sheetfile "nfc-pcb.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start 0 0)
-			(end 0 2.7)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bd476ad5-c975-4482-8bbc-d5389a9e3f5d")
-		)
-		(fp_line
-			(start 0 0)
-			(end 2.7 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d9c8e1e2-8a27-4b63-b4a7-3b3da49d5597")
-		)
-		(fp_line
-			(start 0 37)
-			(end 0 34.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f49dcad1-1050-4b88-9952-512bab8736aa")
-		)
-		(fp_line
-			(start 0 37)
-			(end 2.7 37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "18cd1247-8ada-4977-bf5a-1b8187994f6d")
-		)
-		(fp_line
-			(start 50 0)
-			(end 47.3 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "efbd664b-c200-4adb-8f97-c1ba4e1d3036")
-		)
-		(fp_line
-			(start 50 0)
-			(end 50 2.7)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e2ab9d44-f879-445d-a598-e8004d2a8536")
-		)
-		(fp_line
-			(start 50 37)
-			(end 47.3 37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7d815639-62dc-4498-bafe-f2cc15f8666b")
-		)
-		(fp_line
-			(start 50 37)
-			(end 50 34.3)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b242ac9e-931b-4f63-85f1-52afdafc0af8")
-		)
-		(fp_line
-			(start 0 0)
-			(end 50 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "049209ac-b137-44ff-925a-b97e190fb70e")
-		)
-		(fp_line
-			(start 0 37)
-			(end 0 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1daf27c2-6442-44e3-a97c-1a32cd46ffb9")
-		)
-		(fp_line
-			(start 50 0)
-			(end 50 37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59ab7117-a01c-4436-be2f-bbf6e703dd13")
-		)
-		(fp_line
-			(start 50 37)
-			(end 0 37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f91e51a-aa40-4577-a678-a3ae9f55886b")
-		)
-		(pad "1" thru_hole circle
-			(at 24.508516 36.85)
-			(size 0.3 0.3)
-			(drill 0.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Net-(U1-LA)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d0262f53-3f7f-4e74-859b-89db4b1d822a")
-		)
 		(pad "1" smd custom
 			(at 24.508516 36.85)
 			(size 0.3 0.3)
@@ -1400,17 +1271,6 @@
 				)
 			)
 			(uuid "126dacc5-4f17-4641-8f09-f515e29dc08a")
-		)
-		(pad "2" thru_hole circle
-			(at 25.491484 34.45)
-			(size 0.3 0.3)
-			(drill 0.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Net-(U1-LB)")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "da574fc5-6ad1-4960-92f2-07316d8d8209")
 		)
 		(pad "2" smd custom
 			(at 25.491484 34.45)
